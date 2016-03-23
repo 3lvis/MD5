@@ -80,7 +80,7 @@ func shiftLeft<T: SignedIntegerType where T: Initiable>(value: T, count: Int) ->
 
 // for any f*** other Integer type - this part is so non-Generic
 func shiftLeft(value: UInt, count: Int) -> UInt {
-    return UInt(shiftLeft(Int(value), count: count)) //FIXME: count:
+    return UInt(shiftLeft(Int(value), count: count))
 }
 
 func shiftLeft(value: UInt8, count: Int) -> UInt8 {
