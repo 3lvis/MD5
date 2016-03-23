@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/MD5.svg?style=flat)](https://cocoapods.org/pods/MD5)
 [![Platform](https://img.shields.io/cocoapods/p/MD5.svg?style=flat)](https://cocoapods.org/pods/MD5)
 
-A stripped down version of [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift). [@krzyzanowskim](https://github.com/krzyzanowskim) did all the work.
+A stripped down version of [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) that only gives you MD5, updated for Swift 2.2. [@krzyzanowskim](https://github.com/krzyzanowskim) did all the work.
 
 ## Usage
 
