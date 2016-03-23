@@ -34,9 +34,17 @@ extension NSData {
         let result = Hash.md5(self.arrayOfBytes()).calculate()
         return NSData.withBytes(result)
     }
+
+    @nonobjc public func md5Hash() -> String {
+        let result = Hash.md5(self.arrayOfBytes()).calculate()
+        let md5 = NSData.withBytes(result)
+        let charsToRemove = NSCharacterSet(charactersInString: "<>")
+        let hash = md5.description.stringByTrimmingCharactersInSet(charsToRemove).stringByReplacingOccurrencesOfString(" ", withString: "")
+        return hash
+    }
 }
 
-extension NSData {    
+extension NSData {
     public func arrayOfBytes() -> [UInt8] {
         let count = self.length / sizeof(UInt8)
         var bytesArray = [UInt8](count: count, repeatedValue: 0)
