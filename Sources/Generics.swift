@@ -55,7 +55,6 @@ func << <T:UnsignedIntegerType>(lhs: T, rhs: Int) -> UInt {
 }
 
 // Generic function itself
-// FIXME: this generic function is not as generic as I would. It crashes for smaller types
 func shiftLeft<T: SignedIntegerType where T: Initiable>(value: T, count: Int) -> T {
     if (value == 0) {
         return 0;

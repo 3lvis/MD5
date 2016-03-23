@@ -14,7 +14,6 @@
 		14E468EC1CA2A13E00D47BA5 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E61CA2A13E00D47BA5 /* MD5.swift */; };
 		14E468ED1CA2A13E00D47BA5 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */; };
 		14E468EE1CA2A13E00D47BA5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E81CA2A13E00D47BA5 /* Utils.swift */; };
-		14E468F01CA2A2E500D47BA5 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468EF1CA2A2E500D47BA5 /* Cipher.swift */; };
 		14E468F21CA2A38B00D47BA5 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F11CA2A38B00D47BA5 /* IntExtension.swift */; };
 		14E468F41CA2A3F900D47BA5 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F31CA2A3F900D47BA5 /* Generics.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		14E468E61CA2A13E00D47BA5 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
 		14E468E81CA2A13E00D47BA5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		14E468EF1CA2A2E500D47BA5 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
 		14E468F11CA2A38B00D47BA5 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		14E468F31CA2A3F900D47BA5 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +109,6 @@
 				14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */,
 				14E468F11CA2A38B00D47BA5 /* IntExtension.swift */,
 				14E468E81CA2A13E00D47BA5 /* Utils.swift */,
-				14E468EF1CA2A2E500D47BA5 /* Cipher.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -194,7 +191,6 @@
 			files = (
 				14E468ED1CA2A13E00D47BA5 /* NSData+Extension.swift in Sources */,
 				14E468E91CA2A13E00D47BA5 /* BytesSequence.swift in Sources */,
-				14E468F01CA2A2E500D47BA5 /* Cipher.swift in Sources */,
 				14E468EC1CA2A13E00D47BA5 /* MD5.swift in Sources */,
 				14E468EE1CA2A13E00D47BA5 /* Utils.swift in Sources */,
 				14E468F21CA2A38B00D47BA5 /* IntExtension.swift in Sources */,
