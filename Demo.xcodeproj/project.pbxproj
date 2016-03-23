@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
+		14E468E91CA2A13E00D47BA5 /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E31CA2A13E00D47BA5 /* BytesSequence.swift */; };
+		14E468EA1CA2A13E00D47BA5 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E41CA2A13E00D47BA5 /* Hash.swift */; };
+		14E468EB1CA2A13E00D47BA5 /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E51CA2A13E00D47BA5 /* HashProtocol.swift */; };
+		14E468EC1CA2A13E00D47BA5 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E61CA2A13E00D47BA5 /* MD5.swift */; };
+		14E468ED1CA2A13E00D47BA5 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */; };
+		14E468EE1CA2A13E00D47BA5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E81CA2A13E00D47BA5 /* Utils.swift */; };
+		14E468F01CA2A2E500D47BA5 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468EF1CA2A2E500D47BA5 /* Cipher.swift */; };
+		14E468F21CA2A38B00D47BA5 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F11CA2A38B00D47BA5 /* IntExtension.swift */; };
+		14E468F41CA2A3F900D47BA5 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F31CA2A3F900D47BA5 /* Generics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		14C0AF811BD6D4230009ECBE /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		14C0AF821BD6D4230009ECBE /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C0AF831BD6D4230009ECBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		14E468E31CA2A13E00D47BA5 /* BytesSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BytesSequence.swift; sourceTree = "<group>"; };
+		14E468E41CA2A13E00D47BA5 /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		14E468E51CA2A13E00D47BA5 /* HashProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashProtocol.swift; sourceTree = "<group>"; };
+		14E468E61CA2A13E00D47BA5 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
+		14E468E81CA2A13E00D47BA5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		14E468EF1CA2A2E500D47BA5 /* Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
+		14E468F11CA2A38B00D47BA5 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		14E468F31CA2A3F900D47BA5 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,7 @@
 		146D728A1AB782920058798C = {
 			isa = PBXGroup;
 			children = (
+				14E468E21CA2A13E00D47BA5 /* Sources */,
 				14C136501AB7849300B7B07A /* Metadata */,
 				146D72AF1AB782920058798C /* Tests */,
 				146D72941AB782920058798C /* Products */,
@@ -79,6 +98,22 @@
 				14C0AF831BD6D4230009ECBE /* README.md */,
 			);
 			name = Metadata;
+			sourceTree = "<group>";
+		};
+		14E468E21CA2A13E00D47BA5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				14E468E31CA2A13E00D47BA5 /* BytesSequence.swift */,
+				14E468E41CA2A13E00D47BA5 /* Hash.swift */,
+				14E468E51CA2A13E00D47BA5 /* HashProtocol.swift */,
+				14E468F31CA2A3F900D47BA5 /* Generics.swift */,
+				14E468E61CA2A13E00D47BA5 /* MD5.swift */,
+				14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */,
+				14E468F11CA2A38B00D47BA5 /* IntExtension.swift */,
+				14E468E81CA2A13E00D47BA5 /* Utils.swift */,
+				14E468EF1CA2A2E500D47BA5 /* Cipher.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		CFEACE6CEB4B26122DFC637D /* Frameworks */ = {
@@ -157,7 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E468ED1CA2A13E00D47BA5 /* NSData+Extension.swift in Sources */,
+				14E468E91CA2A13E00D47BA5 /* BytesSequence.swift in Sources */,
+				14E468F01CA2A2E500D47BA5 /* Cipher.swift in Sources */,
+				14E468EC1CA2A13E00D47BA5 /* MD5.swift in Sources */,
+				14E468EE1CA2A13E00D47BA5 /* Utils.swift in Sources */,
+				14E468F21CA2A38B00D47BA5 /* IntExtension.swift in Sources */,
+				14E468EA1CA2A13E00D47BA5 /* Hash.swift in Sources */,
+				14E468F41CA2A3F900D47BA5 /* Generics.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				14E468EB1CA2A13E00D47BA5 /* HashProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
