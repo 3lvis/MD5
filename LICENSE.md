@@ -1,4 +1,5 @@
 Copyright (C) 2014 Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
+
 Copyright (c) 2016 Elvis Nuñez
 
 This software is provided 'as-is', without any express or implied warranty. 
