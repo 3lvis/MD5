@@ -11,7 +11,6 @@ A stripped down version of [CryptoSwift](https://github.com/krzyzanowskim/Crypto
 ```swift
 let someData = NSData(...)
 let md5 = someData.md5()
-// profit
 ```
 
 ## Installation
@@ -25,8 +24,4 @@ pod 'MD5'
 
 ## License
 
-**MD5** is available under the MIT license. See the LICENSE file for more info.
-
-## Author
-
-Elvis Nuñez, [@3lvis](https://twitter.com/3lvis)
+See the LICENSE file for more info.
