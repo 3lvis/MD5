@@ -9,6 +9,7 @@ A stripped down version of [CryptoSwift](https://github.com/krzyzanowskim/Crypto
 ## Usage
 
 ```swift
+// This can be performance heavy, you probably want to use a background queue
 let someData = NSData(...)
 let md5 = someData.md5()
 ```
