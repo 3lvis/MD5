@@ -14,6 +14,10 @@ let someData = NSData(...)
 let md5 = someData.md5()
 ```
 
+```swift
+let hash = "hello".md5Hash()
+```
+
 ## Installation
 
 **MD5** is available through [CocoaPods](http://cocoapods.org). To install
