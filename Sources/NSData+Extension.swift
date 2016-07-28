@@ -44,12 +44,6 @@ extension NSData {
     }
 }
 
-extension NSString {
-    @nonobjc public func md5Hash() -> String {
-        return (self.dataUsingEncoding(NSUTF8StringEncoding) ?? NSData()).md5Hash()
-    }
-}
-
 extension NSData {
     public func arrayOfBytes() -> [UInt8] {
         let count = self.length / sizeof(UInt8)
