@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "MD5"
   s.summary          = "MD5 and MD5 hash in Swift"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.homepage         = "https://github.com/3lvis/MD5"
   s.license          = 'MIT'
   s.author           = { "Elvis Nuñez" => "elvisnunez@me.com" }
