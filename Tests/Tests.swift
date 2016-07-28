@@ -13,4 +13,9 @@ class Tests: XCTestCase {
         let md5 = data.md5Hash()
         XCTAssertEqual(md5, "5d41402abc4b2a76b9719d911017c592")
     }
+
+    func testMD5HashFromString() {
+        let hash = "hello".md5Hash()
+        XCTAssertEqual(hash, "5d41402abc4b2a76b9719d911017c592")
+    }
 }

@@ -16,6 +16,7 @@
 		14E468EE1CA2A13E00D47BA5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468E81CA2A13E00D47BA5 /* Utils.swift */; };
 		14E468F21CA2A38B00D47BA5 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F11CA2A38B00D47BA5 /* IntExtension.swift */; };
 		14E468F41CA2A3F900D47BA5 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E468F31CA2A3F900D47BA5 /* Generics.swift */; };
+		447B6ED41D4A91CE00C42D3F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B6ED31D4A91CE00C42D3F /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		14E468E81CA2A13E00D47BA5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		14E468F11CA2A38B00D47BA5 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		14E468F31CA2A3F900D47BA5 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		447B6ED31D4A91CE00C42D3F /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				14E468E71CA2A13E00D47BA5 /* NSData+Extension.swift */,
 				14E468F11CA2A38B00D47BA5 /* IntExtension.swift */,
 				14E468E81CA2A13E00D47BA5 /* Utils.swift */,
+				447B6ED31D4A91CE00C42D3F /* String+Extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				14E468EA1CA2A13E00D47BA5 /* Hash.swift in Sources */,
 				14E468F41CA2A3F900D47BA5 /* Generics.swift in Sources */,
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				447B6ED41D4A91CE00C42D3F /* String+Extension.swift in Sources */,
 				14E468EB1CA2A13E00D47BA5 /* HashProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
